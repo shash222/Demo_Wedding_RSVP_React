@@ -1,0 +1,30 @@
+#loginForm{
+    margin:auto;
+    width:70%;
+    max-width:450px;
+    min-width:300px;
+}
+
+input{
+    height:40px;
+    width:80%;
+    margin-bottom: 20px;
+    font-size:15px;
+}
+
+#ifEmailed{
+    margin-top:0;
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.errorMessage{
+    color:red;
+}
+
+#enterFamilyName{
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,59 @@
+.rsvpStatusContainer{
+    display:flex;
+    flex-direction: row;
+    font-size:17px;
+}
+
+.rsvpLeft{
+    display:flex;
+    flex-direction: column;
+    width:45%;
+}
+
+.rsvpRight{
+    width:55%;
+}
+
+.rsvpHeadings{
+    margin:0;
+    margin-bottom: 10px;
+}
+
+select{
+	width: 4em !important;
+}
+
+.selection{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    border:2px solid black;
+    content: "";
+    margin-right: 5px;
+    vertical-align: baseline;
+    margin-top:1.9em;
+}
+
+.selection:hover{
+    cursor: pointer;
+}
+
+.eventResponse p{
+    display:inline-block;
+    margin-right:20px;
+    padding-bottom: 5px;
+}
+
+.selectedResponse{
+    background-color: green;
+}
+
+.selectedResponse::before{
+    content:"\2714";
+    color:white;
+}
+
+.attending{
+    font-size: 20px;
+    margin-right: 20px;
+}

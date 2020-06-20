@@ -1,0 +1,81 @@
+.eventStatusContainer{
+	display:table;
+	width:100%;
+}
+
+.eventStatus{
+    width:50%;
+}
+
+.locationName{
+    font-size: 20px;
+    margin:0;
+}
+
+#attending td:first-child{
+    width: 40%;
+}
+
+.eventStatusTop{
+	display:table-row;
+}
+
+.eventStatusBottom{
+	display:table-row;
+}
+
+input[type="radio"]{
+	height:initial;
+	width:initial;
+	margin-top: 30px;
+}
+
+.location > span{
+}
+
+.eventStatusEventName{
+    display:table-cell;
+    font-weight:bolder;
+    font-size:30px;
+    width:40%;
+    margin:0;
+}
+
+
+.eventStatusDate{
+	display:table-cell;
+	margin:0;
+    font-size:26px;
+    font-weight:900;
+    width:60%;
+}
+
+.eventAttendanceStatus{
+	display:table-cell;
+	width:40%;
+}
+
+.location{
+	display:table-cell;
+	width:55%;
+}
+
+.attendingEventStatus{
+    color:rgb(140,189,107);
+    font-size:25px;
+    font-weight:500;
+    margin:0;
+    vertical-align:middle;
+}
+
+.notAttendingEventStatus{
+    color:rgb(255,0,0);
+    font-size:20px;
+    font-weight:600;
+}
+
+.basedOnResponse{
+    color:rgb(237,125,49);
+    font-size:15px;
+    font-weight:500;
+}

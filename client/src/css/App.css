@@ -1,0 +1,39 @@
+#body{
+    text-align: center;
+    margin:auto;
+}
+
+#container{
+    width:100%;
+    margin:auto;
+    max-width:600px;
+    margin-top:20px;
+}
+
+@font-face{
+    font-family: Vivaldii;
+    src: url("../res/fonts/vivaldi/VIVALDII.TTF");
+}
+
+@font-face{
+    font-family: gabriolaa;
+    src:url('../res/fonts/gabriola/Gabriola.ttf')
+}
+
+
+@font-face{
+    font-family:centuryGothic;
+    src:url('../res/fonts/century-gothic/CenturyGothic.ttf');
+}
+
+body{
+    font-family: centuryGothic;
+}
+
+.cursive{
+    font-family: Vivaldii;
+}
+
+.theme{
+    color: rgb(68, 102, 162);
+}

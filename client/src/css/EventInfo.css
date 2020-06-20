@@ -1,0 +1,29 @@
+table{
+    width:75%;
+    
+    margin:auto;
+    
+}
+
+#rsvpSummary{
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+#eventInfo{
+    margin-top:50px;
+}
+
+#email{
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+#emailAddress{
+    margin-bottom:40px;
+    font-size: 25px;
+}
