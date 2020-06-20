@@ -1,0 +1,28 @@
+ul{
+    margin:0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color:RGB(192,0,0);
+    font-size: 20px;
+    justify-content:space-around;
+    padding:0;
+}
+
+li{
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* active is the default class given to any currently active NavLink */
+/* an active NavLink is the link to the location currently set*/
+.active {
+    text-decoration:underline;
+}
+
+#navigationBar{
+    margin-top: 0;
+}

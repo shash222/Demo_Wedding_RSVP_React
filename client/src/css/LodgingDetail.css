@@ -1,0 +1,28 @@
+.lodgingContainer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lodgingLeft{
+    width:50%;
+}
+
+.lodgingRight{
+    width:50%;
+    font-size: 18px;
+}
+
+.lodgingRate{
+    font-weight: bold;
+}
+
+.lodgingEvent{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.lodgingLocation{
+    font-weight:bold;
+    font-size: 25px;
+}

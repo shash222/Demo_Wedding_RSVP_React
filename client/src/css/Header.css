@@ -1,0 +1,26 @@
+/* Header Component */
+
+#bismillah{
+    width: 250px;
+    display:block;
+    margin:20px auto;
+}
+
+#invitedBy{    
+    margin:0;
+    font-size:18px;
+}
+
+#header{
+    margin:auto;
+}
+
+#headerBottomBorder{
+    margin:0;
+}
+
+#couple{
+    font-weight:200;
+    font-size: 40px;
+    margin:10px;
+}
